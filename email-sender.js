@@ -5,15 +5,15 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
   service: 'gmail', // Utilisation du service Gmail pour l'envoi d'email
   auth: {
-    user: 'gomisezekielpaulantoine@gmail.com', // Adresse email de l'expéditeur
-    pass: 'password' // Mot de passe pour l'authentification SMTP
+    user: '221yabsbusiness@gmail.com', // Adresse email de l'expéditeur
+    pass: 'cthr rnnz wypv cbwa' // Mot de passe pour l'authentification SMTP
   }
 });
 
 // Options du mail qui sera envoyé
 const mailOptions = {
-  from: 'your_email@gmail.com', // Adresse de l'expéditeur
-  to: 'recipient_email@example.com', // Adresse du destinataire
+  from: '221yabsbusiness@gmail.com', // Adresse de l'expéditeur
+  to: 'gomisezekielpaulantoine@gmail.com', // Adresse du destinataire
   subject: 'Test Email', // Sujet de l'email
   text: 'This is a test email from Node.js' // Contenu du message en texte brut
 };
